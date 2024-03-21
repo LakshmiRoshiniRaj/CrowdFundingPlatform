@@ -1,0 +1,91 @@
+
+.card-row {
+  display: flex;
+  justify-content: 20PX;
+  margin-top: 20px;
+}
+
+.card-image {
+  width: 100px; 
+  height: 100px; 
+  object-fit: cover;
+  
+}
+
+.card-container {
+  display: flex;
+  margin: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 200px; 
+  border-radius: 60%; 
+  margin-right: 15px;
+ margin-left: 75px;
+}
+
+
+.social-media-icons {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  background-color: black; 
+  padding: 15px;
+  display: flex; 
+  justify-content: center;
+}
+
+.social-media-icons a {
+  margin: 0 10px; 
+  text-decoration: none;
+  color: whitesmoke; 
+}
+
+.social-media-icons a:hover {
+  color: #007bff;
+}
+
+/*Learning */
+.learning-crodo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.learning-card {
+  width:400px; /* Set the width of each card */
+}
+h1 {
+text-align: center;
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  margin-top: 20px; 
+}
+h2 {
+  text-align: center;
+  color: rgb(5, 110, 5) ;
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+}
+.learning-card .card-title {
+  font-size: 1.8rem; 
+  font-weight: bold;
+}
+.learning-card .card-text {
+  font-size: 1rem;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.no-underline button {
+  text-decoration: none;
+}
